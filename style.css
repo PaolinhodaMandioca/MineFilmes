@@ -1,0 +1,52 @@
+body {
+    background-color: #121212;
+    color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  h1 {
+    color: #ffcc00;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #ffcc00aa;
+  }
+  
+  .player-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .video-js {
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 204, 0, 0.3);
+  }
+  
+  .buttons {
+    margin-top: 10px;
+  }
+  
+  button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #ffaa00;
+  }
+  
+  .cinema-mode {
+    background-color: #000;
+  }
+  
+  .cinema-mode .video-js {
+    box-shadow: 0 0 50px #ffcc00;
+  }
+  

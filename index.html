@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Noite de Filmes</title>
+
+  <!-- Video.js CSS -->
+  <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+
+  <!-- Seu estilo -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Noite de Filmes 🍿</h1>
+
+  <div class="player-container">
+    <video
+      id="my-video"
+      class="video-js vjs-theme-city"
+      controls
+      preload="auto"
+      width="960"
+      height="540"
+      data-setup='{}'
+    >
+      <source src="filmes/Suzume.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <div class="buttons">
+    <button id="cinema-btn">🎬 Modo Cinema</button>
+    <button id="fullscreen-btn">⛶ Tela Cheia</button>
+  </div>
+
+  <!-- Video.js JS -->
+  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+
+  <!-- Seu script -->
+  <script src="script.js"></script>
+</body>
+</html>
